@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('e370e0b899ff88c17f03d3a6fe420536.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.box{
+  width: 280px;
+  background: transparent;
+  color:#fff;
+  border: none;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  backdrop-filter: blur(4px);
+  padding: 60px 40px;
+}
+
+.box h1{
+  text-align: center;
+  font-size: 26px;
+}
+
+.box .input-box{
+  position: relative;
+  width: 100%;
+  height: 35px;
+  margin: 30px 0;
+}
+
+.input-box input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color:#fff;
+  padding: 20px 35px 20px 20px;
+}
+
+.input-box input::placeholder{
+  color:#fff;
+}
+
+.remember-me label input{
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.box .btn{
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  background-color: rgb(121, 177, 255);
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 800;
+  color:#fff;
+}
+
+.register-forgot{
+  position: relative;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.register-forgot a{
+  color:#fff;
+  text-decoration: none;
+  
+}
+
+.register-forgot a:hover{
+  text-decoration: underline;
+}
+
